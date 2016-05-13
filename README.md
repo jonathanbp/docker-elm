@@ -52,3 +52,8 @@ The following versions are currently supported:
 ### Issues
 
  * The `elm repl` for Elm 0.17 seems to be missing the coloured output that was present in Elm 0.16 (although error messages from `elm make` do appear in colour). I'm not sure if this is an issue with the build or with the Elm source.
+
+
+### Fork notes
+
+This fork basically just replaces the `ENTRYPOINT` with `CMD` in order to use the image in a CI environment.
