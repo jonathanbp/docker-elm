@@ -1,5 +1,5 @@
 FROM haskell:7.10.2
-MAINTAINER Michael Porter <mike@codesimple.net>
+MAINTAINER Jonathan Bunde-Pedersen <jonathan@purebadger.com>
 
 ENV ELM_VER=0.16
 

@@ -1,5 +1,5 @@
 FROM haskell:7.10.2
-MAINTAINER Michael Porter <mike@codesimple.net>
+MAINTAINER Jonathan Bunde-Pedersen <jonathan@purebadger.com>
 
 ENV ELM_VER=0.17
 
@@ -14,5 +14,5 @@ WORKDIR /opt
 RUN curl https://raw.githubusercontent.com/elm-lang/elm-platform/b69d0206b10ebc8c6cbc8b4fbc7033b4cd3e5672/installers/BuildFromSource.hs > BuildFromSource.hs
 RUN runhaskell BuildFromSource.hs $ELM_VER
 
-ENTRYPOINT ["elm"]
+CMD ["elm"]
 
